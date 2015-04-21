@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sandbox</title>
+  <link rel="stylesheet" type="text/css" href="/stylesheets/main.css">
+</head>
+<body>
+
+  <div class="header">
+    <div id="page-title">
+      <a href="/"><h2 id="header-title">Sandbox</h2></a>
+    </div>
+    <ul class="header-menu">
+      <li><a href="#">Home</a>
+        <ul>
+          <li><a href="#">Blah</a></li>
+          <li><a href="#">Blah</a></li>
+        </ul>
+      </li>
+      <li><a href="#">Kiddie Pool</a>
+        <ul>
+          <li><a href="/clickables">Clickables</li>
+          <li><a href="#">More</a></li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+  <div class="container">
+    <%= yield %>
+  </div>
+
+  <script type="text/javascript" src="/javascript/jquery.js"></script>
+  <script type="text/javascript" src="/javascript/d3.min.js"></script>
+  <script type="text/javascript" src="/javascript/header.js"></script>
+  <script type="text/javascript" src="/javascript/cats.js"></script>
+  <script type="text/javascript" src="/javascript/main.js"></script>
+
+</body>
+</html>
