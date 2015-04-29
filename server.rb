@@ -28,7 +28,7 @@ module SandBox
         'member:' + mid.to_s,
         'name', name,
         'birthday', birthday).to_json
-      redirect_to ('/')
+      redirect ('/')
     end
 
   end
